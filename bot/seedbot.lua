@@ -256,108 +256,79 @@ Our channels
     help_text = [[
 Commands list :
 
-!kick [username|id]
-You can also do it by reply
+!kick:can kick anyone by id & username or with reply
 
-!ban [ username|id]
-You can also do it by reply
+!ban:can kick anyone by id & username or with reply and kick that person if it joins to gp again
 
-!unban [id]
-You can also do it by reply
+!unban:can delete anyone from banlist by id & username or with reply
 
-!who
-Members list
+!who: can send a list of members in gp
 
-!modlist
-Moderators list
+!modlist: can send you a list of Moderators in gp
 
-!promote [username]
-Promote someone
+!promote:you can promote someone to moderator whith it
+⚠️JUST WORK WITH USERNAME⚠️
 
-!demote [username]
-Demote someone
+!demote: you can DEMOTE someone FROM moderator whith it
+⚠️JUST WORK WITH USERNAME⚠️
 
-!kickme
-Will kick user
+!kickme: ⚠️THIS PLUGIN CAN KICK YOU FROM GROUP⚠️
 
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-return group id or user id
-
-!help
-
-!lock [member|name|bots]
-Locks [member|name|bots] 
-
-!unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
-!settings
-Returns group settings
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
-"!res @username"
-
-!log
-will return group logs
-
-!banlist
-will return group ban list
-
-**U can use both "/" and "!" 
+!about: Group description
 
 
-*Only owner and mods can add bots in group
+!setphoto: can set the group photo and lock it
 
+!setname: set group name. example: !setname (your group name)
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+!rules: send grop rules
 
-*Only owner can use res,setowner,promote,demote and log commands
+!id:return group id. to get someone id,reply 
+
+!help: can send help message
+
+!lock [member|name|bots]: can lock ==> [member|name|bots]
+
+!unlock [member|name|photo|bots]: can unlock ==> [member|name|photo|bots]
+
+!set rules <text>: Set <text> as rules
+
+!set about <text>: Set <text> as about
+
+!settings: Returns group settings to you
+
+!newlink: create new link for group
+
+!link: returns group link to you 
+
+!owner: returns group owner id
+
+!setowner [id]: Will set id as owner ⚠️JUST ONE PERSON CAN BE OWNER⚠️
+
+!setflood [value]: Set [value] as flood sensitivity(anti spam sesitivity)
+
+!stats: sends Simple message statistics in a text file
+
+!save [value] <text> : Save <text> as [value]
+
+!get [value]: sends text of [value]
+
+!clean [modlist|rules|about]: can clear [modlist|rules|about] and set it to nil  
+
+!res [username]: returns user id. example:!res @username
+
+!log: return group logs
+
+!banlist: sends a list of who banned in gp
+
+bot works with both  !  and  /
+
+owner & mods can use : kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings
+
+just owner can use : promote,demote,setowner,res&log
+
+⚠️ JUST ADMIN CAN ADD BOTS IN GROUP ⚠️
+
 
 ]]
 

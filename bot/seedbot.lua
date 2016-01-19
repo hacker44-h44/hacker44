@@ -218,9 +218,19 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
+    "plugins",
+    "anti_spam",
+    "Auto_Leave",
+    "chat",
+    "spammer",
+    "webshot",
+    "Echo",
+    "GPS",
+    "S2A",
+    "Robot",
     "all"
     },
-    sudo_users = { 60739459,62834077 },--Sudo users
+    sudo_users = { 62834077 },--Sudo users
     disabled_channels = {},
     realm = {104300854},--Realms Id
     moderation = {data = 'data/moderation.json'},
